@@ -1,0 +1,226 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>My Childhood</title>
+    <style>
+      body {
+        font-family: Arial, Verdana, sans-serif;
+        background-color: #f5f7fa;
+        color: #222;
+        margin: 0;
+        padding: 0;
+      }
+      header,
+      footer {
+        background-color: #e3eaf2;
+        padding: 24px 0 16px 0;
+        text-align: center;
+      }
+      h1 {
+        color: #2a5d9f;
+        font-size: 2.5em;
+        margin-bottom: 0.2em;
+        margin-top: 0.2em;
+        letter-spacing: 2px;
+      }
+      h2 {
+        color: #145985;
+        font-size: 2em;
+        margin-top: 1.5em;
+        margin-bottom: 0.5em;
+      }
+      h3 {
+        color: #104261;
+        font-size: 1.3em;
+        margin-top: 1.2em;
+        margin-bottom: 0.3em;
+      }
+      p {
+        color: #333;
+        font-size: 1.08em;
+        line-height: 1.7;
+        margin: 0.7em 0 1.2em 0;
+      }
+      main {
+        max-width: 900px;
+        margin: 0 auto;
+        padding: 24px;
+        background: #fff;
+        border-radius: 10px;
+        box-shadow: 0 2px 8px rgba(60, 90, 130, 0.08);
+      }
+      section,
+      aside {
+        margin-bottom: 2.5em;
+        padding: 1.2em 1.5em;
+        border-radius: 8px;
+        background: #f0f4fa;
+      }
+      nav a {
+        color: #2a5d9f;
+        text-decoration: underline;
+        font-weight: bold;
+        margin: 0 12px;
+        transition: color 0.2s;
+      }
+      nav a:hover {
+        color: #1b3c5d;
+        text-decoration: none;
+      }
+      figure {
+        margin: 1em 0;
+        text-align: center;
+      }
+      figcaption {
+        font-style: italic;
+        color: #6a7b8c;
+        font-size: 0.98em;
+      }
+      .highlight {
+        font-weight: bold;
+        color: #d35400;
+      }
+      .emphasis {
+        font-style: italic;
+        color: #1b3c5d;
+      }
+      footer p {
+        color: #6a7b8c;
+        font-size: 0.95em;
+        margin: 0.2em;
+      }
+      @media (max-width: 700px) {
+        main {
+          padding: 10px;
+        }
+        section,
+        aside {
+          padding: 0.7em 0.5em;
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <header>
+      <h1>My Hobbies Showcase</h1>
+      <p>
+        A glimpse into what I <span class="highlight">love</span> to learn and
+        do
+      </p>
+
+      <!-- Main navigation -->
+      <nav aria-label="Main navigation">
+        <a href="#childhood">Childhood</a>
+        <a href="#hobbies">Hobbies</a>
+        <a href="#contact">Contact</a>
+      </nav>
+    </header>
+
+    <main id="main-content" role="main">
+      <section id="childhood" aria-labelledby="childhood-title">
+        <h2 id="childhood-title">My Childhood</h2>
+        <p>
+          This page reflects some of my
+          <span class="highlight">early interests</span> that shaped my
+          <span class="emphasis">curiosity</span>: learning, music, gaming, and
+          exploration with gadgets.
+        </p>
+      </section>
+
+      <!-- Hobbies section with multiple articles for each hobby -->
+      <section id="hobbies" aria-labelledby="hobbies-title">
+        <h2 id="hobbies-title">Hobbies Spotlight</h2>
+
+        <!-- Learning via YouTube/videos -->
+        <article aria-labelledby="hobby-learning-title">
+          <h3 id="hobby-learning-title">Learning Through YouTube Videos</h3>
+          <p>
+            These videos <span class="highlight">teach me a lot</span>. I gain
+            <em>better understanding</em> in topics.
+          </p>
+          <figure>
+            <img src="youtube.png" alt="Watching YouTube tutorials" />
+            <figcaption>
+              Watching educational videos to learn new skills.
+            </figcaption>
+          </figure>
+        </article>
+
+        <!-- Listening to music -->
+        <article aria-labelledby="hobby-music-title">
+          <h3 id="hobby-music-title">Listening to Music</h3>
+          <p>
+            This hobby helps me <span class="emphasis">focus</span> and
+            <b>relax</b>. Classical pieces are a
+            <span class="highlight">favorite</span>.
+          </p>
+          <figure>
+            <img src="meditation.jpg" alt="Listening to classical music" />
+            <figcaption>
+              Classical music mood for focus and relaxation.
+            </figcaption>
+          </figure>
+        </article>
+
+        <!-- Xbox gaming -->
+        <article aria-labelledby="hobby-xbox-title">
+          <h3 id="hobby-xbox-title">Xbox Gaming</h3>
+          <p>
+            Gaming helps me <b>unwind</b> and stay social with friends. A bit of
+            <span class="highlight">friendly competition</span> is fun.
+          </p>
+          <figure>
+            <img src="xbox.jpg" alt="Xbox gaming" />
+            <figcaption>
+              Xbox gaming sessions with friends to de-stress.
+            </figcaption>
+          </figure>
+        </article>
+
+        <!-- Drone photography -->
+        <article aria-labelledby="hobby-drone-title">
+          <h3 id="hobby-drone-title">Drone</h3>
+          <p>
+            I love <span class="highlight">controlling it</span> and capturing
+            <em>unique perspectives</em> from the sky.
+          </p>
+          <figure>
+            <img src="drone.jpg" alt="Drone photography" />
+            <figcaption>
+              Drone photography offers creative angles and landscapes.
+            </figcaption>
+          </figure>
+        </article>
+      </section>
+
+      <!-- quick contact with note -->
+      <aside id="contact" aria-labelledby="contact-title" role="complementary">
+        <h2 id="contact-title">Get in Touch</h2>
+        <p>
+          If you'd like to <span class="highlight">chat</span> about hobbies,
+          share tips, or collaborate on a small project, feel free to reach out.
+        </p>
+        <p>
+          <strong>Email:</strong> <span class="emphasis">ttsats@gmail.com</span>
+        </p>
+
+        <article>
+          <h3>Fun Fact</h3>
+          <p>
+            Spending time on hobbies <b>improves creativity</b>,
+            <span class="highlight">reduces stress</span>, and enhances
+            <em>problem-solving skills</em>.
+          </p>
+        </article>
+      </aside>
+    </main>
+
+    <!-- Footer -->
+    <footer>
+      <p>&copy; 2023 My Childhood. All rights reserved.</p>
+      <p>Created by Tshidiso Tsatsi</p>
+    </footer>
+  </body>
+</html>
